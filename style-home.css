@@ -1,0 +1,83 @@
+#banner{
+  width: 100%;
+}
+
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+/* comportamento do mouse ao passar em |nav a| */
+nav a:hover {
+  color: #c78c19;
+  text-decoration: underline;
+}
+
+/* comportamento do mouse ao clicar em |nav a| */
+nav a:active {
+  color: #078c19;
+  text-decoration: underline;
+}
+
+.principal{
+  background: #cccccc;
+  padding: 30px;
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.titulo-principal{
+  padding-left: 20px;
+}
+
+.titulo-centralizado{
+  text-align: center;
+}
+
+p{
+  text-align: center;
+}
+/*----- o "#" é usado pra "id" id= identificador, usado para itens unicos ------*/
+#missao{
+  font-size: 20px;
+}
+
+em strong{
+  color: #ff0000;
+}
+
+/*----- o "." é usado pra "class" class = classe, usado para itens que serão repetidos ------*/
+.itens{
+  font-style: italic;
+}
+
+.beneficios{
+  background: #ffffff;
+  padding: 20px;
+}
+
+ul{
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+}
+
+.imagembeneficios{
+  width: 50%;
+}
